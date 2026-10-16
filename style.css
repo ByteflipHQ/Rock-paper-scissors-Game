@@ -24,6 +24,7 @@ body {
 .move-icon img{
   width: 40px;
   border: 4px;
+  cursor: pointer;
 }
 
 .result-js {
