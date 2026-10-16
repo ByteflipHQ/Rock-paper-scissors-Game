@@ -26,7 +26,7 @@ function updateGameDisplay(result, playerMove, computerMove) {
   document.querySelector(".move-js").innerHTML =
     `You
     <img id="playerMove" src="./${playerMove.toLowerCase()}.png">
-    <img id="playerMove" src="$./{computerMove.toLowerCase()}.png">
+    <img id="playerMove" src="./${computerMove.toLowerCase()}.png">
     Computer`;
 }
 
